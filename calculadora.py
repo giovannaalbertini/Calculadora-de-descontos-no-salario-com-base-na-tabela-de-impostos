@@ -1,3 +1,12 @@
+#Tabela de impostos IRRF da Receita Federal em 2023:
+
+#até 1.903,98 => Isento.
+#de 1.903,99 a 2.826,65 => 7,5% - 142,80.
+#de 2.826,66 a 3.751,05 => 15% - 354,80.
+#de 3.751,06 a 4.664,68 => 22,5% - 636,13.
+#acima de 4.664,68 - 27,5% => 869,36.
+
+
 salario = float(input('digite seu salario: '))
 
 if salario <= 1903.99:
